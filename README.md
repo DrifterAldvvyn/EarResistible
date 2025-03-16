@@ -3,6 +3,8 @@
 *Learn more about the irresistible sound of many IEMs.*
 這個程式是一個介紹監聽耳機 IEM 的 About 頁面。能讓使用者的到不同耳機的基本資料、響應頻率（耳機調音）、技術規格和一些評論。幫助使用者挑選合適的耳機。
 
+![[demo/mockup.png]]
+
 ## 功能
 
 - 瀏覽耳機資料
