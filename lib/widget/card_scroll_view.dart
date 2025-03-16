@@ -45,10 +45,10 @@ class _CardScrollViewState extends State<CardScrollView> {
                       children: [
                         Hero(
                           tag: 'iem_image$index',
-                          child: Image.asset(iemDataList[index].iem.image),
+                          child: Image.asset(iemDataList[index].image),
                         ),
                         Text(
-                          iemDataList[index].iem.brand,
+                          iemDataList[index].brand,
                           style: TextStyle(
                             fontSize: 30,
                             fontFamily: 'MilkyVintage',
@@ -59,7 +59,7 @@ class _CardScrollViewState extends State<CardScrollView> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              iemDataList[index].iem.name,
+                              iemDataList[index].name,
                               style: TextStyle(
                                 fontSize: 20,
                                 fontFamily: 'MilkyVintage',

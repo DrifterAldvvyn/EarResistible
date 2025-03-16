@@ -82,7 +82,7 @@ class _AboutPageState extends State<AboutPage> {
                       ),
                     ),
                     FrequencyResponse(
-                      iemName: iemDataList[widget.id].iem.name,
+                      iemName: iemDataList[widget.id].name,
                       graphPath: iemDataList[widget.id].graph,
                       graphCorrection: iemDataList[widget.id].graphCorrection,
                     ),
@@ -159,7 +159,7 @@ class _AboutPageState extends State<AboutPage> {
                 Hero(
                   tag: 'iem_image${widget.id}',
                   child: Image.asset(
-                    iemDataList[widget.id].iem.image,
+                    iemDataList[widget.id].image,
                     width: max(150, 225 - _scrollOffset * 0.35),
                     height: max(150, 225 - _scrollOffset * 0.35),
                     fit: BoxFit.contain,
@@ -179,7 +179,7 @@ class _AboutPageState extends State<AboutPage> {
                       child: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 12),
                         child: Text(
-                          iemDataList[widget.id].iem.brand,
+                          iemDataList[widget.id].brand,
                           style: TextStyle(
                             fontSize: 30,
                             fontFamily: 'MilkyVintage',
@@ -189,7 +189,7 @@ class _AboutPageState extends State<AboutPage> {
                       ),
                     ),
                     Text(
-                      iemDataList[widget.id].iem.name,
+                      iemDataList[widget.id].name,
                       style: TextStyle(
                         fontSize: 20,
                         fontFamily: 'MilkyVintage',
